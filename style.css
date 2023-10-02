@@ -1,0 +1,48 @@
+body {
+
+  display: grid;
+  grid-template-areas: 
+  
+  " h h h h h h "
+  " n m m m m m"
+  " f f f f f f"
+
+  
+  ;
+
+
+}
+
+header {
+
+
+  background: green;
+  grid-area: h;
+
+}
+
+nav {
+
+background: blue;
+grid-area: n;
+
+}
+
+
+main {
+
+
+  background: yellow;
+  grid-area: m;
+
+
+}
+
+
+footer {
+
+  background: purple;
+  grid-area: f;
+
+
+}
